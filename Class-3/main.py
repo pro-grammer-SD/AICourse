@@ -8,11 +8,11 @@ cities = ["Paris", "Tokyo", "New York", "Barcelona", "Rome", "Dubai"]
 packing_tips = [
     "Roll your clothes to save space.",
     "Pack versatile outfits you can mix and match.",
-    "Don’t forget a universal charger.",
+    "Don't forget a universal charger.",
     "Pack travel-size toiletries."
 ]
 jokes = [
-    "Why don’t scientists trust atoms? Because they make up everything!",
+    "Why don't scientists trust atoms? Because they make up everything!",
     "I asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'",
     "Why did the scarecrow win an award? Because he was outstanding in his field!"
 ]
@@ -54,4 +54,4 @@ while True:
     elif re.search(r"\bjoke\b", user):
         print(f"{Fore.CYAN}TravelBot: {random.choice(jokes)}")
     else:
-        print(f"{Fore.CYAN}TravelBot: I didn’t get that. Try 'recommendation', 'packing', or 'joke'.")
+        print(f"{Fore.CYAN}TravelBot: I didn't get that. Try 'recommendation', 'packing', or 'joke'.")
